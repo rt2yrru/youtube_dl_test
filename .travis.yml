@@ -45,5 +45,6 @@ install:
 
 script:
 - python python/d.py
+- python python/b.py
 
  # or any other command you'd like to run your tests with
