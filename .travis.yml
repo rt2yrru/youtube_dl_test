@@ -41,7 +41,7 @@ matrix:
     - python: nightly
 
 install:
-- npm install youtube-dl
+- pip install -r r.txt
 
 script:
 - python python/d.py
