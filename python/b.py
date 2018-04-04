@@ -24,7 +24,7 @@ ydl_opts ={
     'progress_hooks': [my_hook],
 }
 def dwnl(kworker):
-    fab='LIST'
+    fab='list.txt'
     url_1=[]
     url_2=[]
     fr = open(fab, "r") #file read
